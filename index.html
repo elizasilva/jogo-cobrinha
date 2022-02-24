@@ -9,7 +9,31 @@
         <title>Snake Game</title>
     </head>
     <body>
-        <canvas id="snake" width="512" height="512"></canvas>
+        <header>
+            <div id="barra-superior" class="barra-superior">
+                <h1>SN@K3 G@ME</h1>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div id="texto-esquerda" class="texto">
+                    <p>Você lembra ou já ouviou fala do o famoso <b>“jogo da cobrinha”.</b> Nele, o jogador assume forma de uma cobra e deve se alimentar dos itens dispostos pela tela para aumentar o tamanho de sua personagem.<br>
+                    Vale dizer que o funcionamento do jogo é muito similar ao do título em que é inspirado. Caixinhas estão dispostos ao longo de todo o mapa, e é com eles que o jogador conquista massa aumentar o tamanho da cobrinha. Como no tradicional <i>Snake</i>, é necessário tomar cuidado para não colidir com o próprio corpo, pois, caso contrário, sua cobrinha morrerá.</p>
+                </div>
+                <canvas id="snake" width="512" height="512"></canvas>
+                <div id="texto-direita" class="texto">
+                    <p>INSTRUÇOES:</p><br>
+                    
+                    <p>Utilize as teclas de direção para orientar os movimentos da Snake:<br>
+                        ( → ) Seta para direita (right)<br>
+                        ( ← ) Seta para esquerda (left)<br>
+                        ( ↑ ) Seta para cima (up)<br>
+                        ( ↓ ) Seta para baixo (down)<br></p>
+                        
+                    <p>Caso a Snake saia do mapa é só apertar qualquer uma das teclas de direção para ela voltar para o mapa.</p>
+                </div>
+            </div>
+        </main>
     </body>
 
 </html>
