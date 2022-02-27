@@ -1,27 +1,32 @@
 @charset "UTF-8";
 
 body {
-    height: 95vh;
-    width: 95vw;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-items: center;
     background-color: #1b1e23;
     color: #ffff00;
-    
+    position: absolute;
+    align-items: center;
+}
+#centro {
+   text-align: center;
+   color: #ffff00;
+   text-shadow: #F24F00 1px 1px 0.5px;
 }
 
-#barra-superior {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+#lado-esquerdo {
+    width: 380px;
+    margin: 15px;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+#lado-direito {
+    width: 380px;
+    margin: 15px;
+}
+
+.texto {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+    text-align: justify;
 }
